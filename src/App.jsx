@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="App">
-      Let's create something amazing here!
+      Let&apos;s create something amazing here!
     </div>
   )
 }
