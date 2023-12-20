@@ -1,7 +1,10 @@
+import '../stylesheets/Header.css';
+
 const Header = () => {
   return (
     <header>
-      <h1>My React App</h1>
+      <h1>You Only Live Once</h1>
+      <h2>Make it count!</h2>
     </header>
   );
 }
