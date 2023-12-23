@@ -7,3 +7,39 @@
   justify-content: space-between;
   align-items: center;
 }
+
+header, .inputs, .main-grid, .outputs, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header, footer {
+  width: 100%;
+  height: 15%;
+}
+
+header {
+  flex-direction: column;
+}
+
+footer {
+  height: 10%;
+}
+
+.inputs-grid-outputs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;  
+}
+
+.inputs, .outputs {
+  width: 20%;
+  height: 100%;
+}
+
+.main-grid {
+  width: 60%;
+  height: 100%;
+}

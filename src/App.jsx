@@ -10,9 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Inputs />
-      <MainGrid />
-      <Outputs />
+      <div className="inputs-grid-outputs">
+        <Inputs />
+        <MainGrid />
+        <Outputs />
+      </div>
       <Footer />
     </div>
   )
